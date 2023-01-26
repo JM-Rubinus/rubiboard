@@ -22,19 +22,19 @@ export const sidebar = [
   },
   {
     name: 'Orders',
-    href: '#',
+    href: '/orders',
     icon: ArchiveBoxIcon,
     current: false,
   },
   {
     name: 'Payments',
-    href: '#',
+    href: '/payments',
     icon: WalletIcon,
     current: false,
   },
   {
     name: 'Reports',
-    href: '#',
+    href: '/reports',
     icon: ClipboardDocumentIcon,
     current: false,
   },

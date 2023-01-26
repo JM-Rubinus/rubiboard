@@ -2,6 +2,7 @@ import { Fragment, useState } from 'react';
 import { Dialog, Transition } from '@headlessui/react';
 import { sidebar } from './SidebarExports';
 import { XMarkIcon, Bars3Icon } from '@heroicons/react/24/solid';
+import { Link } from 'react-router-dom';
 function classNames(...classes) {
   return classes.filter(Boolean).join(' ');
 }
@@ -166,7 +167,7 @@ const Sidebar = () => {
                       Urban Trace Logistics
                     </p>
                     <p className="text-xs font-medium hover:duration-300 text-white group-hover:text-productGreen">
-                      See Profile
+                      <Link to="/account">See Profile</Link>
                     </p>
                   </div>
                 </div>
