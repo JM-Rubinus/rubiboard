@@ -1,6 +1,6 @@
 version: '3.8'
 services:
-  rubiboard-frontend:
+  rubiboard-client:
     build:
       context: ./deploy
       dockerfile: Dockerfile
@@ -10,4 +10,3 @@ services:
     volumes:
       - ./build:/var/www/html
       - ./deploy/default.conf:/etc/nginx/sites-available/default
-   
